@@ -13,6 +13,7 @@
 
 }
 
+/* body */
 body{
     background-color: var(--color-neutral-100);
     display: flex;
@@ -22,9 +23,25 @@ body{
 
 }
 
+p{
+    font-size: 1.125rem;
+}
+
+/* container */
 .container{
     background-color: var(--color-neutral-90);
     width: 300px;
     height: 500px;
     border-radius: 10px;
+}
+/* img do container */
+.image{
+    
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+
+    
 }
