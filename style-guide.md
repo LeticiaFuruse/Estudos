@@ -2,7 +2,7 @@
 
 ## Layout
 
-The designs were created to the following widths:
+O design foi feito para seguir essas resoluções:
 
 - Mobile: 375px
 - Desktop: 1440px
@@ -23,7 +23,7 @@ The designs were created to the following widths:
 - Very dark blue (line): hsl(215, 32%, 27%)
 - White: hsl(0, 0%, 100%)
 
-## Typography
+## Tipografia
 
 ### Body Copy
 
@@ -33,5 +33,3 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 300, 400, 600
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
