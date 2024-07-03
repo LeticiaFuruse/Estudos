@@ -1,3 +1,30 @@
-* {
-  background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+:root{
+    --color-primary-100: hsl(215, 51%, 70%);
+    --color-primary-90: hsl(178, 100%, 50%);
+
+    --color-neutral-100: hsl(217, 54%, 11%);
+    --color-neutral-90: hsl(216, 50%, 16%);
+
+}
+
+body{
+    background-color: var(--color-neutral-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: var(--color-neutral-90);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
 }
