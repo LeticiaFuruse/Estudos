@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +7,23 @@
     border: none;
 }
 :root{
+    --color-white-100: hsl(0, 0%, 100%);
+    --color-line:  hsl(215, 32%, 27%);
+
     --color-primary-100: hsl(215, 51%, 70%);
     --color-primary-90: hsl(178, 100%, 50%);
 
     --color-neutral-100: hsl(217, 54%, 11%);
     --color-neutral-90: hsl(216, 50%, 16%);
 
+    --font-tittle: 'Outfit', sans-serif;
+
 }
 
 /* body */
 body{
     background-color: var(--color-neutral-100);
+    font-family: var(--font-tittle);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +34,18 @@ body{
 p{
     font-size: 1.125rem;
 }
+
+h1{
+    font-size: 1.0rem;
+    color: var(--color-white-100);
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+
+
+
+
 
 /* container */
 .container{
