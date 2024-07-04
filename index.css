@@ -31,21 +31,24 @@ body{
 
 }
 
+
+/* card */
 p{
-    font-size: 1.125rem;
+    font-size: 1.120rem;
+    color: var(--color-white-100);
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 h1{
     font-size: 1.0rem;
     color: var(--color-white-100);
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 1rem;
 }
-
-
-
-
-
 
 /* container */
 .container{
@@ -57,11 +60,46 @@ h1{
 /* img do container */
 .image{
     
-    width: 90%;
+    width: 85%;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
-    margin: 1rem;
-
-    
+    margin: 1.5rem;    
 }
+
+/* line */
+.line{
+    width: 85%;
+    height: 1px;
+    background-color: var(--color-line);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* creator */
+.creator{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* img do creator */
+.creator img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-white-100);
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+/* p do creator */
+.creator p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
