@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    font-size: 1.125rem;
 }
 :root{
     --color-white-100: hsl(0, 0%, 100%);
@@ -34,37 +35,33 @@ body{
 
 /* card */
 p{
-    font-size: 1.120rem;
-    color: var(--color-white-100);
+    color: var(--color-primary-100);
     font-weight: 100;
     margin-top: 1rem;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
     margin-bottom: 1rem;
 }
 
 h1{
-    font-size: 1.0rem;
+    margin-top: 1rem;
     color: var(--color-white-100);
     font-weight: 600;
-    margin-left: 1rem;
+
 }
 
 /* container */
 .container{
     background-color: var(--color-neutral-90);
-    width: 300px;
-    height: 500px;
+    width: 400px;
+    padding: 1.5rem;
     border-radius: 10px;
 }
 /* img do container */
-.image{
-    
-    width: 85%;
+.image{ 
+    width: 100%;
     height: auto;
     border-radius: 10px;
     cursor: pointer;
-    margin: 1.5rem;    
+   
 }
 
 /* line */
@@ -82,8 +79,7 @@ h1{
 .creator{
     display: flex;
     align-items: center;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+
     margin-bottom: 1.5rem;
 }
 
@@ -98,7 +94,6 @@ h1{
 
 /* p do creator */
 .creator p{
-    font-size: 0.9rem;
     font-weight: 400;
 }
 
